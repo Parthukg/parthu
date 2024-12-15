@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/parthu/static/css/main.457c83b2.css",
+    "main.js": "/parthu/static/js/main.029e4113.js",
+    "static/css/487.bb36206c.chunk.css": "/parthu/static/css/487.bb36206c.chunk.css",
+    "static/js/487.04d29c65.chunk.js": "/parthu/static/js/487.04d29c65.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/parthu/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.72af93f9.chunk.js": "/parthu/static/js/990.72af93f9.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/parthu/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/resume.pptx": "/parthu/static/media/resume.76b6f5eeaa25f476cdd0.pptx",
+    "static/media/kctLogo.png": "/parthu/static/media/kctLogo.64f6750b0e9e7d51d947.png",
+    "static/media/Agustina.woff": "/parthu/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/pd1Salesforce.png": "/parthu/static/media/pd1Salesforce.44b18239fc047387bcac.png",
+    "static/media/aiAssociate.png": "/parthu/static/media/aiAssociate.19d94e4fe08662a997db.png",
+    "static/media/manOnTable.svg": "/parthu/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/parthu/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/parthu/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/azLogo2.png": "/parthu/static/media/azLogo2.e0a7df428da80f26315c.png",
+    "static/media/skill.svg": "/parthu/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/saayaHealthLogo.webp": "/parthu/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
+    "static/media/nextuLogo.webp": "/parthu/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
+    "index.html": "/parthu/index.html",
+    "static/media/talksCardBack.svg": "/parthu/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.457c83b2.css.map": "/parthu/static/css/main.457c83b2.css.map",
+    "main.029e4113.js.map": "/parthu/static/js/main.029e4113.js.map",
+    "487.bb36206c.chunk.css.map": "/parthu/static/css/487.bb36206c.chunk.css.map",
+    "487.04d29c65.chunk.js.map": "/parthu/static/js/487.04d29c65.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/parthu/static/css/990.c6a7ee28.chunk.css.map",
+    "990.72af93f9.chunk.js.map": "/parthu/static/js/990.72af93f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.457c83b2.css",
+    "static/js/main.029e4113.js"
+  ]
+}
