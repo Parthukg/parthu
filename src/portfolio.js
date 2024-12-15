@@ -27,7 +27,7 @@ const greeting = {
   ),
   resumeLink:
     "https://docs.google.com/presentation/d/1yhMYRl9e04MyVRE_qi7er8MzAvH99ruc/edit?usp=drive_link&ouid=114818455738151797305&rtpof=true&sd=true", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -114,17 +114,6 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    // {
-    //   schoolName: "Harvard University",
-    //   logo: require("./assets/images/harvardLogo.png"),
-    //   subHeader: "Master of Science in Computer Science",
-    //   duration: "September 2017 - April 2019",
-    //   desc: "Participated in the research of XXX and published 3 papers.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
     {
       schoolName: "Kumaraguru College of Technology",
       logo: require("./assets/images/kctLogo.png"),
@@ -165,7 +154,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "AstraZeneca",
-      companylogo: require("./assets/images/azLogo2.png"),
+      companylogo: require("./assets/images/azLogo3.jpg"),
       date: "June 2019 – Present",
       desc: "Salesforce Developer specializes in building and customizing applications on the Salesforce platform.",
       // descBullets: [
@@ -184,20 +173,6 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
     }
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
