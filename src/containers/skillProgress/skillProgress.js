@@ -4,6 +4,7 @@ import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import Proficiency from "../../assets/lottie/proficiencyAnimation1.json";
 
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
@@ -29,7 +30,7 @@ export default function StackProgress() {
 
           <div className="skills-image">
             {illustration.animated ? (
-              <DisplayLottie animationData={Build} />
+              <DisplayLottie animationData={Proficiency} />
             ) : (
               <img
                 alt="Skills"
