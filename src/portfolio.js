@@ -23,7 +23,7 @@ const greeting = {
   username: "Parthasarathy",
   title: "Hi all, I'm Parthu",
   subTitle: emoji(
-    "Salesforce Developer | 5+ years of experience | Passionate about leveraging AI & advanced technologies to drive business innovation. When I'm not coding on Salesforce, I'm exploring the latest in AI & machine learning."
+    "Salesforce Developer | 5+ years of experience | Passionate about leveraging AI & advanced technologies to drive business innovation. When I'm not working with Salesforce, I'm exploring the latest in AI and machine learning."
   ),
   resumeLink:
     "https://docs.google.com/presentation/d/1yhMYRl9e04MyVRE_qi7er8MzAvH99ruc/edit?usp=drive_link&ouid=114818455738151797305&rtpof=true&sd=true", // Set to empty to hide the button
@@ -51,13 +51,22 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SALESFORCE DEVELOPER WHO WANTS TO BUILD SOMETHING GREAT",
+  subTitle: "Salesforce Developer and Engineer eager to create impactful and innovative solutions.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🚀 Skilled in developing and customizing Salesforce applications using Apex, Visualforce, and Lightning components."
     ),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Proficient in integrating Salesforce with external systems via REST and SOAP APIs, with strong expertise in data modeling, security, and automation tools like Process Builder and Flow."
+    ),
+    emoji(
+      "📊 Experienced in designing user-friendly dashboards and reports for data-driven decision-making and troubleshooting technical issues."
+    ),
+    emoji(
+      "🤝 Proven track record in collaborating with cross-functional teams to gather requirements and deliver tailored Salesforce solutions."
+    ),
+    emoji(
+      "💡 Passionate about leveraging the latest Salesforce features and advancements in AI and machine learning to drive business innovation."
     )
   ],
 
@@ -119,7 +128,7 @@ const educationInfo = {
       logo: require("./assets/images/kctLogo.png"),
       subHeader: "Electrical Engineering",
       duration: "August 2015 - April 2019",
-      desc: "Ranked top 10% in the program. Took courses about Microprocessors, Digital Circuits, DSA...",
+      desc: "Secured First Class with Distinction. Took courses about Embedded Systems Design and Development, Control Systems, Data Structures and Algorithms, Machine Learning.",
       //descBullets: [""]
     }
   ]
@@ -140,7 +149,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -242,6 +251,33 @@ const achievementSection = {
       imageAlt: "AI Associate Logo",
       footerLink: [
         {name: "Certification", url: "https://trailhead.salesforce.com/credentials/aiassociate"},
+      ]
+    },
+    {
+      title: "Python Specialization",
+      subtitle: "Completed Certifcation authorized by University of Michigan and offered through Coursera.",
+      image: require("./assets/images/University_of_Michigan_Logo.png"),
+      imageAlt: "UOM Logo",
+      footerLink: [
+        {name: "Certification", url: "https://coursera.org/share/2991311abcbcc94bc9597e13d16789b7"},
+      ]
+    },
+    {
+      title: "Machine Learning",
+      subtitle: "Completed Certifcation authorized by Stanford University and offered through Coursera.",
+      image: require("./assets/images/stanfordLogo.png"),
+      imageAlt: "Stanford Logo",
+      footerLink: [
+        {name: "Certification", url: "https://coursera.org/share/b0843f93a19ed4e8e9b5fc0694274e51"},
+      ]
+    },
+    {
+      title: "Deep Learning Specialization",
+      subtitle: "Completed Certifcation authorized by DeepLearning.ai and offered through Coursera.",
+      image: require("./assets/images/deeplearningAILogo.png"),
+      imageAlt: "DeepLearning.ai Logo",
+      footerLink: [
+        {name: "Certification", url: "https://coursera.org/share/e7367faa7c3cec5652f486632eeec3ca"},
       ]
     }
   ],
