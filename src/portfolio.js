@@ -234,7 +234,8 @@ const achievementSection = {
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
-  achievementsCards: [
+  achievementsCards: {
+    salesforce: [
     {
       title: "Salesforce Platform Developer I",
       subtitle: "Completed Certifcation from Salesforce for Platform Development",
@@ -253,6 +254,16 @@ const achievementSection = {
         {name: "Certification", url: "https://trailhead.salesforce.com/credentials/aiassociate"},
       ]
     },
+    {
+      title: "Salesforce AI Specialist",
+      subtitle: "Completed Certifcation from Salesforce for AI Specialist",
+      image: require("./assets/images/aiSpecialist.png"),
+      imageAlt: "AI Specialist Logo",
+      footerLink: [
+        {name: "Certification", url: "https://trailhead.salesforce.com/credentials/aispecialist"},
+      ]
+    }],
+    others: [
     {
       title: "Python Specialization",
       subtitle: "Completed Certifcation authorized by University of Michigan and offered through Coursera.",
@@ -279,8 +290,8 @@ const achievementSection = {
       footerLink: [
         {name: "Certification", url: "https://coursera.org/share/e7367faa7c3cec5652f486632eeec3ca"},
       ]
-    }
-  ],
+    }]
+  },
   display: true // Set false to hide this section, defaults to true
 };
 
