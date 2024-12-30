@@ -125,11 +125,27 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Kumaraguru College of Technology",
-      logo: require("./assets/images/kctLogo.png"),
-      subHeader: "Electrical Engineering",
+      logo: require("./assets/images/kctLogo.jpg"),
+      subHeader: "Bachelor of Science in Electrical Engineering",
       duration: "August 2015 - April 2019",
-      desc: "Secured First Class with Distinction. Took courses about Embedded Systems Design and Development, Control Systems, Data Structures and Algorithms, Machine Learning.",
-      //descBullets: [""]
+      desc: "Graduated with First Class Honors and Distinction, demonstrating a strong academic performance and a comprehensive understanding of electrical engineering principles.",
+      descBullets: ["Core Expertise: Developed a solid foundation in circuit analysis, electromagnetics, and power systems, focusing on practical applications and problem-solving.",
+        "Expanded Knowledge: Pursued additional courses in Data Structures and Algorithms, and Machine Learning out of personal interest, broadening expertise beyond the core curriculum.",
+        "Hands-On Experience: Engaged in projects that enhanced technical skills and fostered innovative thinking, applying theoretical knowledge to real-world challenges.",
+        "Commitment to Excellence: Consistently demonstrated a commitment to academic and personal growth, achieving high standards throughout the program."
+      ]
+    },
+    {
+      schoolName: "Forge",
+      logo: require("./assets/images/forgeLogo2.jpg"),
+      subHeader: "Graduate Diploma in Hardware/AIoT Product Design and Engineering",
+      duration: "January 2019 - April 2019",
+      desc: "Gained comprehensive knowledge in the design and development of hardware and AIoT products, equipping me with a robust understanding of modern engineering challenges and solutions.",
+      descBullets: [
+        "Innovative Project Work: Engaged in projects that emphasized innovative solutions and cutting-edge engineering techniques, fostering a creative approach to problem-solving.",
+        "Diverse Curriculum: Studied a wide range of topics, including Applied Design Thinking, Electronic System Design, Industrial Design, Product Development, and MUP Prototyping, ensuring a holistic approach to product design and engineering.",
+        "Holistic Approach: Developed a well-rounded skill set that combines technical expertise with creative design, preparing me for diverse roles in the engineering field."
+      ] //"Practical Skills: Acquired hands-on experience in PCB design, 3D printing, and AI technology integration to effectively address real-world challenges.",
     }
   ]
 };
@@ -152,7 +168,7 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false  // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
 // Work experience section
@@ -177,7 +193,7 @@ const workExperiences = {
       company: "Forge",
       companylogo: require("./assets/images/forgeLogo2.jpg"),
       date: "July 2018 – December 2018",
-      desc: "Graduate Diploma in Hardware/AIoT Product Design and Engineering",
+      desc: "Fellowship in Product Design and Engineering",
       descBullets: [
         "<b>Innovative Solutions Development</b>: Created an automated ticket inspection device with a Raspberry Pi and developed an Android app using Firebase for real-time data storage.",
         "<b>Advanced Technology Application</b>: Worked on a project to autonomously charge drones during disaster management tasks, enhancing operational efficiency.",
@@ -202,7 +218,7 @@ const bigProjects = {
   subtitle: "Key Projects from my Professional Experience",
   projects: [
     {
-      
+
       projectName: "AI Developer – Grant Application Processing System",
       projectDesc: "Contributed to developing an AI-driven system for processing grant applications using OpenAI's API, AWS, Postgres, Next.js, Python, and MuleSoft.",
       /*image: require("./assets/images/saayaHealthLogo.webp"),
@@ -256,61 +272,61 @@ const achievementSection = {
 
   achievementsCards: {
     salesforce: [
-    {
-      title: "Salesforce Platform Developer I",
-      subtitle: "Completed Certifcation from Salesforce for Platform Development",
-      image: require("./assets/images/pd1Salesforce.png"),
-      imageAlt: "PD1 Logo",
-      footerLink: [
-        {name: "Certification", url: "https://trailhead.salesforce.com/en/credentials/platformdeveloperi"},
-      ]
-    },
-    {
-      title: "Salesforce AI Associate",
-      subtitle: "Completed Certifcation from Salesforce for AI Associate",
-      image: require("./assets/images/aiAssociate.png"),
-      imageAlt: "AI Associate Logo",
-      footerLink: [
-        {name: "Certification", url: "https://trailhead.salesforce.com/credentials/aiassociate"},
-      ]
-    },
-    {
-      title: "Salesforce AI Specialist",
-      subtitle: "Completed Certifcation from Salesforce for AI Specialist",
-      image: require("./assets/images/aiSpecialist.png"),
-      imageAlt: "AI Specialist Logo",
-      footerLink: [
-        {name: "Certification", url: "https://trailhead.salesforce.com/credentials/aispecialist"},
-      ]
-    }],
+      {
+        title: "Salesforce Platform Developer I",
+        subtitle: "Completed Certifcation from Salesforce for Platform Development",
+        image: require("./assets/images/pd1Salesforce.png"),
+        imageAlt: "PD1 Logo",
+        footerLink: [
+          { name: "Certification", url: "https://trailhead.salesforce.com/en/credentials/platformdeveloperi" },
+        ]
+      },
+      {
+        title: "Salesforce AI Associate",
+        subtitle: "Completed Certifcation from Salesforce for AI Associate",
+        image: require("./assets/images/aiAssociate.png"),
+        imageAlt: "AI Associate Logo",
+        footerLink: [
+          { name: "Certification", url: "https://trailhead.salesforce.com/credentials/aiassociate" },
+        ]
+      },
+      {
+        title: "Salesforce AI Specialist",
+        subtitle: "Completed Certifcation from Salesforce for AI Specialist",
+        image: require("./assets/images/aiSpecialist.png"),
+        imageAlt: "AI Specialist Logo",
+        footerLink: [
+          { name: "Certification", url: "https://trailhead.salesforce.com/credentials/aispecialist" },
+        ]
+      }],
     others: [
-    {
-      title: "Python Specialization",
-      subtitle: "Completed Certifcation authorized by University of Michigan and offered through Coursera.",
-      image: require("./assets/images/University_of_Michigan_Logo.png"),
-      imageAlt: "UOM Logo",
-      footerLink: [
-        {name: "Certification", url: "https://coursera.org/share/2991311abcbcc94bc9597e13d16789b7"},
-      ]
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "Completed Certifcation authorized by Stanford University and offered through Coursera.",
-      image: require("./assets/images/stanfordLogo.png"),
-      imageAlt: "Stanford Logo",
-      footerLink: [
-        {name: "Certification", url: "https://coursera.org/share/b0843f93a19ed4e8e9b5fc0694274e51"},
-      ]
-    },
-    {
-      title: "Deep Learning Specialization",
-      subtitle: "Completed Certifcation authorized by DeepLearning.ai and offered through Coursera.",
-      image: require("./assets/images/deeplearningAILogo.png"),
-      imageAlt: "DeepLearning.ai Logo",
-      footerLink: [
-        {name: "Certification", url: "https://coursera.org/share/e7367faa7c3cec5652f486632eeec3ca"},
-      ]
-    }]
+      {
+        title: "Python Specialization",
+        subtitle: "Completed Certifcation authorized by University of Michigan and offered through Coursera.",
+        image: require("./assets/images/University_of_Michigan_Logo.png"),
+        imageAlt: "UOM Logo",
+        footerLink: [
+          { name: "Certification", url: "https://coursera.org/share/2991311abcbcc94bc9597e13d16789b7" },
+        ]
+      },
+      {
+        title: "Machine Learning",
+        subtitle: "Completed Certifcation authorized by Stanford University and offered through Coursera.",
+        image: require("./assets/images/stanfordLogo.png"),
+        imageAlt: "Stanford Logo",
+        footerLink: [
+          { name: "Certification", url: "https://coursera.org/share/b0843f93a19ed4e8e9b5fc0694274e51" },
+        ]
+      },
+      {
+        title: "Deep Learning Specialization",
+        subtitle: "Completed Certifcation authorized by DeepLearning.ai and offered through Coursera.",
+        image: require("./assets/images/deeplearningAILogo.png"),
+        imageAlt: "DeepLearning.ai Logo",
+        footerLink: [
+          { name: "Certification", url: "https://coursera.org/share/e7367faa7c3cec5652f486632eeec3ca" },
+        ]
+      }]
   },
   display: true // Set false to hide this section, defaults to true
 };

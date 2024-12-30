@@ -30,6 +30,8 @@ if (USE_GITHUB_DATA === "true") {
     bio
     avatarUrl
     location
+    email
+    websiteUrl
     pinnedItems(first: 6, types: [REPOSITORY]) {
       totalCount
       edges {
