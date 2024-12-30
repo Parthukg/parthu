@@ -16,7 +16,7 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("/profile.json")
+        fetch("https://github.com/Parthukg/parthu/blob/main/public/profile.json")
           .then(result => {
             console.log(result)
             if (result.ok) {
