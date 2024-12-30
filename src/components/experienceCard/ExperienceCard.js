@@ -24,7 +24,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
             key={i}
             className={isDark ? "subTitle dark-mode-text" : "subTitle"}
           >
-            {item}
+            <span dangerouslySetInnerHTML={{ __html: item }} />
           </li>
         ))
       : null;

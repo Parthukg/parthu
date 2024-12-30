@@ -166,10 +166,11 @@ const workExperiences = {
       companylogo: require("./assets/images/azLogo3.jpg"),
       date: "June 2019 – Present",
       desc: "Salesforce Developer specializes in building and customizing applications on the Salesforce platform.",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "<b>Proven Salesforce Expertise</b>: Extensive experience across multiple Salesforce clouds, including Sales, Service, Experience, Health, and Data Clouds, driving impactful solutions for diverse business needs.",
+        "<b>AI & Integration Developer</b>: Developed and integrated advanced AI-driven solutions using OpenAI's API to automate and enhance processes, and integrations with platforms such as Twilio, RELTIO etc.",
+        "<b>Innovative Problem Solver</b>: Successfully designed and implemented technical solutions that streamline processes, enhance user experience, and support global operations across various industries, including healthcare."
+      ]
     },
     {
       role: "Innovation Engineer",
@@ -177,10 +178,11 @@ const workExperiences = {
       companylogo: require("./assets/images/forgeLogo2.jpg"),
       date: "July 2018 – December 2018",
       desc: "Graduate Diploma in Hardware/AIoT Product Design and Engineering",
-      // descBullets: [
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      // ]
+      descBullets: [
+        "<b>Innovative Solutions Development</b>: Created an automated ticket inspection device with a Raspberry Pi and developed an Android app using Firebase for real-time data storage.",
+        "<b>Advanced Technology Application</b>: Worked on a project to autonomously charge drones during disaster management tasks, enhancing operational efficiency.",
+        "<b>Hands-On Product Design</b>: Gained practical experience in AIOT product design and engineering, including PCB design and 3D printing, addressing real-world technology challenges."
+      ]
     }
   ]
 };
@@ -196,34 +198,52 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Key Projects from my Professional Experience",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      
+      projectName: "AI Developer – Grant Application Processing System",
+      projectDesc: "Contributed to developing an AI-driven system for processing grant applications using OpenAI's API, AWS, Postgres, Next.js, Python, and MuleSoft.",
+      /*image: require("./assets/images/saayaHealthLogo.webp"),
       footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
-      ]
+      ]*/
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      projectName: "Lead Salesforce Developer – Salesforce Portal & Mobile App",
+      projectDesc: "Led the development of a Salesforce HealthCloud-based CRM and mobile application for the Asia-Pacific region."
+    },
+    {
+      projectName: "Technical Solution Designer – User Access Self-Service Tool",
+      projectDesc: "Provided the technical solution design for a User Access Self-Service Tool to automate and streamline user access requests."
+    },
+    {
+      projectName: "Salesforce Developer – Global Patient Service Platform",
+      projectDesc: "Worked on a global application designed to provide standardized patient program enrollment and support capabilities."
+    },
+    {
+      projectName: "Key Features for Patient Access Portal",
+      projectDesc: "Implemented key features in Patient Access Programs, focusing on UI and UX enhancements."
+    },
+    {
+      projectName: "Medical Information Application",
+      projectDesc: "Contributed to the development of an application supporting global Medical Information Call Centers."
+    },
+    {
+      projectName: "Academy Application",
+      projectDesc: "Engineered an innovative Academy application, enhancing access to scientific knowledge and learning resources for medical teams, thereby supporting continuous professional development."
+    },
+    {
+      projectName: "Driver Safety Tool",
+      projectDesc: "Developed key features of a cutting-edge driver safety tool to promote safe driving and centralize resources for 25,000 lone workers."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -232,7 +252,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: {
     salesforce: [
@@ -374,6 +394,10 @@ const twitterDetails = {
   userName: "theanonymous281", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
+
+//Endorsements or Testimonials
+
+//Skill Stories using STAR method
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
