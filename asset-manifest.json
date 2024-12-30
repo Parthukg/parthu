@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/parthu/static/css/main.d497a19d.css",
-    "main.js": "/parthu/static/js/main.413f5c3e.js",
+    "main.css": "/parthu/static/css/main.52216970.css",
+    "main.js": "/parthu/static/js/main.547838f8.js",
     "static/css/487.bb36206c.chunk.css": "/parthu/static/css/487.bb36206c.chunk.css",
     "static/js/487.04d29c65.chunk.js": "/parthu/static/js/487.04d29c65.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/parthu/static/css/990.c6a7ee28.chunk.css",
@@ -20,19 +20,17 @@
     "static/media/developerActivity.svg": "/parthu/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/deeplearningAILogo.png": "/parthu/static/media/deeplearningAILogo.4a2f26eb82e6d711375e.png",
     "static/media/skill.svg": "/parthu/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/saayaHealthLogo.webp": "/parthu/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/parthu/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/parthu/index.html",
     "static/media/talksCardBack.svg": "/parthu/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.d497a19d.css.map": "/parthu/static/css/main.d497a19d.css.map",
-    "main.413f5c3e.js.map": "/parthu/static/js/main.413f5c3e.js.map",
+    "main.52216970.css.map": "/parthu/static/css/main.52216970.css.map",
+    "main.547838f8.js.map": "/parthu/static/js/main.547838f8.js.map",
     "487.bb36206c.chunk.css.map": "/parthu/static/css/487.bb36206c.chunk.css.map",
     "487.04d29c65.chunk.js.map": "/parthu/static/js/487.04d29c65.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/parthu/static/css/990.c6a7ee28.chunk.css.map",
     "990.72af93f9.chunk.js.map": "/parthu/static/js/990.72af93f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d497a19d.css",
-    "static/js/main.413f5c3e.js"
+    "static/css/main.52216970.css",
+    "static/js/main.547838f8.js"
   ]
 }
