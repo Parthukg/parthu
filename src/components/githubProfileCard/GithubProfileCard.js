@@ -23,12 +23,12 @@ export default function GithubProfileCard({ prof }) {
             <h2 className="bio-text">"{emoji(String(prof.bio))}"</h2>
             <div>
               <span className="desc-prof">
-                Email: {prof.email}
+                Email: <a href={`mailto:${prof.email}?subject=Hey!%20I%20Checked%20Out%20Your%20Portfolio&body=I%20would%20like%20to%20contact%20you.`}>{prof.email}</a>
               </span>
             </div>
             <div>
               <span className="desc-prof">
-                Website URL: {prof.websiteUrl}
+                Website: <a href={prof.websiteUrl} target="_blank">{prof.websiteUrl}</a>
               </span>
             </div>
             {prof.location !== null && (
