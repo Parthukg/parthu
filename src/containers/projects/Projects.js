@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("https://raw.githubusercontent.com/Parthukg/parthu/refs/heads/main/public/profile.json")
+      fetch("parthu/profile.json")
         .then(result => {
           if (result.ok) {
             return result.json();
