@@ -24,7 +24,7 @@ export default function Blogs() {
   useEffect(() => {
     if (blogSection.displayMediumBlogs === "true") {
       const getProfileData = () => {
-        fetch("/blogs.json")
+        fetch("https://raw.githubusercontent.com/Parthukg/parthu/refs/heads/main/public/blogs.json")
           .then(result => {
             if (result.ok) {
               return result.json();

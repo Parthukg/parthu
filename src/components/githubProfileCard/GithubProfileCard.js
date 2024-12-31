@@ -28,7 +28,7 @@ export default function GithubProfileCard({ prof }) {
             </div>
             <div>
               <span className="desc-prof">
-                Website: <a href={prof.websiteUrl} target="_blank">{prof.websiteUrl}</a>
+                Website: <a href={prof.websiteUrl} target="_blank" rel="noreferrer">{prof.websiteUrl}</a>
               </span>
             </div>
             {prof.location !== null && (

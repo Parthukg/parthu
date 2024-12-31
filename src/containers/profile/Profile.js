@@ -18,7 +18,6 @@ export default function Profile() {
       const getProfileData = () => {
         fetch("https://raw.githubusercontent.com/Parthukg/parthu/refs/heads/main/public/profile.json")
           .then(result => {
-            console.log(result)
             if (result.ok) {
               return result.json();
             }
