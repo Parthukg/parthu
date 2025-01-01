@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/parthu/static/css/main.444674fa.css",
+    "main.css": "/parthu/static/css/main.430bbdac.css",
     "main.js": "/parthu/static/js/main.241f3da0.js",
     "static/css/487.bb36206c.chunk.css": "/parthu/static/css/487.bb36206c.chunk.css",
     "static/js/487.04d29c65.chunk.js": "/parthu/static/js/487.04d29c65.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/skill.svg": "/parthu/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/parthu/index.html",
     "static/media/talksCardBack.svg": "/parthu/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.444674fa.css.map": "/parthu/static/css/main.444674fa.css.map",
+    "main.430bbdac.css.map": "/parthu/static/css/main.430bbdac.css.map",
     "main.241f3da0.js.map": "/parthu/static/js/main.241f3da0.js.map",
     "487.bb36206c.chunk.css.map": "/parthu/static/css/487.bb36206c.chunk.css.map",
     "487.04d29c65.chunk.js.map": "/parthu/static/js/487.04d29c65.chunk.js.map",
@@ -30,7 +30,7 @@
     "990.8805195a.chunk.js.map": "/parthu/static/js/990.8805195a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.444674fa.css",
+    "static/css/main.430bbdac.css",
     "static/js/main.241f3da0.js"
   ]
 }
