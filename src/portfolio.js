@@ -273,6 +273,15 @@ const achievementSection = {
   achievementsCards: {
     salesforce: [
       {
+        title: "Salesforce Data Cloud Consultant",
+        subtitle: "Completed Certifcation from Salesforce for Platform Development",
+        image: require("./assets/images/dccSalesforce.png"),
+        imageAlt: "DCC Logo",
+        footerLink: [
+          { name: "Certification", url: "https://trailhead.salesforce.com/credentials/datacloudconsultant" },
+        ]
+      },
+      {
         title: "Salesforce Platform Developer I",
         subtitle: "Completed Certifcation from Salesforce for Platform Development",
         image: require("./assets/images/pd1Salesforce.png"),
