@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/parthu/static/css/main.430bbdac.css",
-    "main.js": "/parthu/static/js/main.241f3da0.js",
+    "main.js": "/parthu/static/js/main.94d6579c.js",
     "static/css/487.bb36206c.chunk.css": "/parthu/static/css/487.bb36206c.chunk.css",
     "static/js/487.04d29c65.chunk.js": "/parthu/static/js/487.04d29c65.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/parthu/static/css/990.c6a7ee28.chunk.css",
@@ -13,6 +13,7 @@
     "static/media/aiSpecialist.png": "/parthu/static/media/aiSpecialist.b95e01a9874789cabd79.png",
     "static/media/azLogo3.jpg": "/parthu/static/media/azLogo3.65f99f8d1d80f2296c1c.jpg",
     "static/media/Agustina.woff": "/parthu/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/dccSalesforce.png": "/parthu/static/media/dccSalesforce.ae289c043811c29d697a.png",
     "static/media/pd1Salesforce.png": "/parthu/static/media/pd1Salesforce.44b18239fc047387bcac.png",
     "static/media/aiAssociate.png": "/parthu/static/media/aiAssociate.19d94e4fe08662a997db.png",
     "static/media/manOnTable.svg": "/parthu/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -23,7 +24,7 @@
     "index.html": "/parthu/index.html",
     "static/media/talksCardBack.svg": "/parthu/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.430bbdac.css.map": "/parthu/static/css/main.430bbdac.css.map",
-    "main.241f3da0.js.map": "/parthu/static/js/main.241f3da0.js.map",
+    "main.94d6579c.js.map": "/parthu/static/js/main.94d6579c.js.map",
     "487.bb36206c.chunk.css.map": "/parthu/static/css/487.bb36206c.chunk.css.map",
     "487.04d29c65.chunk.js.map": "/parthu/static/js/487.04d29c65.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/parthu/static/css/990.c6a7ee28.chunk.css.map",
@@ -31,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.430bbdac.css",
-    "static/js/main.241f3da0.js"
+    "static/js/main.94d6579c.js"
   ]
 }
