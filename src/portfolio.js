@@ -274,7 +274,7 @@ const achievementSection = {
     salesforce: [
       {
         title: "Salesforce Data Cloud Consultant",
-        subtitle: "Completed Certifcation from Salesforce for Platform Development",
+        subtitle: "Completed Certification from Salesforce for Data Cloud Consultant",
         image: require("./assets/images/dccSalesforce.png"),
         imageAlt: "DCC Logo",
         footerLink: [
@@ -283,7 +283,7 @@ const achievementSection = {
       },
       {
         title: "Salesforce Platform Developer I",
-        subtitle: "Completed Certifcation from Salesforce for Platform Development",
+        subtitle: "Completed Certification from Salesforce for Platform Development",
         image: require("./assets/images/pd1Salesforce.png"),
         imageAlt: "PD1 Logo",
         footerLink: [
@@ -292,7 +292,7 @@ const achievementSection = {
       },
       {
         title: "Salesforce AI Associate",
-        subtitle: "Completed Certifcation from Salesforce for AI Associate",
+        subtitle: "Completed Certification from Salesforce for AI Associate",
         image: require("./assets/images/aiAssociate.png"),
         imageAlt: "AI Associate Logo",
         footerLink: [
@@ -301,7 +301,7 @@ const achievementSection = {
       },
       {
         title: "Salesforce AI Specialist",
-        subtitle: "Completed Certifcation from Salesforce for AI Specialist",
+        subtitle: "Completed Certification from Salesforce for AI Specialist",
         image: require("./assets/images/aiSpecialist.png"),
         imageAlt: "AI Specialist Logo",
         footerLink: [
@@ -311,7 +311,7 @@ const achievementSection = {
     others: [
       {
         title: "Python Specialization",
-        subtitle: "Completed Certifcation authorized by University of Michigan and offered through Coursera.",
+        subtitle: "Completed Certification authorized by University of Michigan and offered through Coursera.",
         image: require("./assets/images/University_of_Michigan_Logo.png"),
         imageAlt: "UOM Logo",
         footerLink: [
@@ -320,7 +320,7 @@ const achievementSection = {
       },
       {
         title: "Machine Learning",
-        subtitle: "Completed Certifcation authorized by Stanford University and offered through Coursera.",
+        subtitle: "Completed Certification authorized by Stanford University and offered through Coursera.",
         image: require("./assets/images/stanfordLogo.png"),
         imageAlt: "Stanford Logo",
         footerLink: [
@@ -329,7 +329,7 @@ const achievementSection = {
       },
       {
         title: "Deep Learning Specialization",
-        subtitle: "Completed Certifcation authorized by DeepLearning.ai and offered through Coursera.",
+        subtitle: "Completed Certification authorized by DeepLearning.ai and offered through Coursera.",
         image: require("./assets/images/deeplearningAILogo.png"),
         imageAlt: "DeepLearning.ai Logo",
         footerLink: [
