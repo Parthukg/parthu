@@ -125,7 +125,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Kumaraguru College of Technology",
-      logo: require("./assets/images/kctLogo.jpg"),
+      logo: require("./assets/images/kctLogo.png"),
       subHeader: "Bachelor of Science in Electrical Engineering",
       duration: "August 2015 - April 2019",
       desc: "Graduated with First Class Honors and Distinction, demonstrating a strong academic performance and a comprehensive understanding of electrical engineering principles.",
@@ -179,7 +179,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "AstraZeneca",
-      companylogo: require("./assets/images/azLogo3.jpg"),
+      companylogo: require("./assets/images/azLogo.png"),
       date: "June 2019 – Present",
       desc: "Salesforce Developer specializes in building and customizing applications on the Salesforce platform.",
       descBullets: [
