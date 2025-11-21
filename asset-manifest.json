@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/parthu/static/css/main.430bbdac.css",
-    "main.js": "/parthu/static/js/main.794b5219.js",
+    "main.js": "/parthu/static/js/main.00a4a917.js",
     "static/css/487.bb36206c.chunk.css": "/parthu/static/css/487.bb36206c.chunk.css",
     "static/js/487.04d29c65.chunk.js": "/parthu/static/js/487.04d29c65.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/parthu/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.8805195a.chunk.js": "/parthu/static/js/990.8805195a.chunk.js",
     "static/media/stanfordLogo.png": "/parthu/static/media/stanfordLogo.5a8e3a0a00949c93a9b8.png",
     "static/media/Montserrat-Regular.ttf": "/parthu/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/resume.pptx": "/parthu/static/media/resume.76b6f5eeaa25f476cdd0.pptx",
-    "static/media/kctLogo.jpg": "/parthu/static/media/kctLogo.4f4878e62551f3878de3.jpg",
+    "static/media/resume.pptx": "/parthu/static/media/resume.8942f854386a2efc810d.pptx",
+    "static/media/kctLogo.jpg": "/parthu/static/media/kctLogo.56f4da444f700ff39727.jpg",
     "static/media/aiSpecialist.png": "/parthu/static/media/aiSpecialist.b95e01a9874789cabd79.png",
-    "static/media/azLogo3.jpg": "/parthu/static/media/azLogo3.65f99f8d1d80f2296c1c.jpg",
+    "static/media/azLogo3.jpg": "/parthu/static/media/azLogo3.7ada3a8b11be312d6b8d.jpg",
     "static/media/Agustina.woff": "/parthu/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/dccSalesforce.png": "/parthu/static/media/dccSalesforce.ae289c043811c29d697a.png",
     "static/media/pd1Salesforce.png": "/parthu/static/media/pd1Salesforce.44b18239fc047387bcac.png",
@@ -24,7 +24,7 @@
     "index.html": "/parthu/index.html",
     "static/media/talksCardBack.svg": "/parthu/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.430bbdac.css.map": "/parthu/static/css/main.430bbdac.css.map",
-    "main.794b5219.js.map": "/parthu/static/js/main.794b5219.js.map",
+    "main.00a4a917.js.map": "/parthu/static/js/main.00a4a917.js.map",
     "487.bb36206c.chunk.css.map": "/parthu/static/css/487.bb36206c.chunk.css.map",
     "487.04d29c65.chunk.js.map": "/parthu/static/js/487.04d29c65.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/parthu/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.430bbdac.css",
-    "static/js/main.794b5219.js"
+    "static/js/main.00a4a917.js"
   ]
 }
