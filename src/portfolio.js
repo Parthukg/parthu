@@ -193,7 +193,7 @@ const workExperiences = {
       company: "Forge",
       companylogo: require("./assets/images/forgeLogo2.jpg"),
       date: "July 2018 – December 2018",
-      desc: "Fellowship in Product Design and Engineering",
+      desc: "Competitive fellowship program focused on rapid product development and innovative engineering solutions.",
       descBullets: [
         "<b>Innovative Solutions Development</b>: Created an automated ticket inspection device with a Raspberry Pi and developed an Android app using Firebase for real-time data storage.",
         "<b>Advanced Technology Application</b>: Worked on a project to autonomously charge drones during disaster management tasks, enhancing operational efficiency.",
