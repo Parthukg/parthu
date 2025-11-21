@@ -16,11 +16,12 @@ export default function Profile() {
   useEffect(() => {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
-        fetch("profile.json")
+        fetch("/profile.json")
           .then(result => {
             if (result.ok) {
               return result.json();
             }
+            throw new Error("Network response was not ok.");
           })
           .then(response => {
             setProfileFunction(response.data.user);
